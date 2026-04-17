@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/the-food-plant-web/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
